@@ -3,7 +3,7 @@ A discord bot who can change roles color every x seconds
 
 
 ---
-<h1>WARNING<h1>
+<h1>⚠️⚠️WARNING⚠️⚠️<h1>
   
 ![alt text](https://cdn.discordapp.com/attachments/704308841759768709/768530581193097236/Capture.PNG) 
 

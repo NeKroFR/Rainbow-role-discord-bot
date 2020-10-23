@@ -5,7 +5,7 @@ import random
 token = ''
 serverid = 123456789101112
 rainbowrolename = "Role 2"
-delay = 0.5
+delay = 2.5
 
 
 client = discord.Client()
@@ -14,7 +14,7 @@ colours = [discord.Color.orange(),discord.Color.gold(),discord.Color.magenta(),d
 async def rainbowrole(role):
     for role in client.get_guild(serverid).roles:
         if str(role) == str(rainbowrolename):
-            print("detected role")
+            print("detected role: \n" + rainbowrolename)
             while not client.is_closed():
                 try:
                     await role.edit(color=random.choice(colours))

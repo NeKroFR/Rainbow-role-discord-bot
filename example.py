@@ -20,7 +20,7 @@ colours = [discord.Color.dark_orange(),discord.Color.orange(),discord.Color.dark
 async def rainbowrole(role):
     for role in client.get_guild(serverid).roles:
         if str(role) == str(rainbowrolename):
-            print("detected role")
+            print("detected role: \n" + rainbowrolename)
             while not client.is_closed():
                 try:
                     await role.edit(color=random.choice(colours))

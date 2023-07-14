@@ -18,7 +18,7 @@ async def rainbowroles():
                 try:
                     await role.edit(color=random.choice(colours))
                 except Exception:
-                    print("\033[31mcan't edit role, make sure the bot role is above the rainbow role and that is have the perms to edit roles\033[0")
+                    print("\033[31mcan't edit the role, make sure the bot's role is above the rainbow role and that it has permissions to edit roles\033[0")
         await asyncio.sleep(DELAY)                            
 
 @client.event
